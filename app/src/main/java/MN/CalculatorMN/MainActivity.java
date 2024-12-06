@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
         try{
             res.setHint(res.getHint().toString()+digit.getText().toString());
         }catch(Exception e){
-            Toast.makeText(this,e.getMessage(),Toast.LENGTH_LONG).show();
+            Toast.makeText(this,e.getMessage(),Toast.LENGTH_LONG).show(); ///yes
             
         }
         
